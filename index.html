@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Razorpay</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body class="overflow-x-hidden">
 
@@ -113,34 +114,44 @@
             <!-- content -->
             <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12">
                 <!-- left section -->
-                <div >
-                    <h3>
+                <div class="flex flex-col justify-between items-center w-full">
+                    <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
                         Supercharge your business with all-powerful
                         <span class="text-lightBlue">Payment Gateway</span>
                     </h3>
-                    <ul>
-                        <li>
+                    <ul class="space-y-2">
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>100+ Payment Methods</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>Industry Leading Success Rate</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>Superior Checkout Experience</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>Easy To Integrate</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>Instant Settlements From Day 1</span>
                         </li>
-                        <li>
+                        <li class="font-mullish flex items-center space-x-2">
+                            <i data-feather="check" class="text-greenLight "></i>
                             <span>In-depth Reporting and Insights</span>
                         </li>
                     </ul>
                     <!-- for button and hyperlink -->
-                    <div>
-                        <button>Sign Up Now</button>
+                    <div class="flex flex-row items-center space-x-4">
+                        <button 
+                        class="bg-lightBlue w-fit text-white py-[14px] px-[18px] rounded-md font-mullish hover:bg-lightBlue500 transition-all duration-200 flex"
+                        >Sign Up Now
+                        
+                    </button>
                         <div>
                             <a href="">Know More</a>
                             <i></i>
@@ -151,5 +162,8 @@
             </div>
         </div>
     </section>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
